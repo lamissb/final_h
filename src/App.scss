@@ -1,0 +1,44 @@
+.sign-btn{
+  display:flex;
+  gap:2vh;
+  justify-content: center;
+}
+#modal-header{
+  margin-left: auto
+}
+#profile{
+  text-wrap: nowrap;
+  gap: 2vh;
+}
+
+
+#profile-name{
+  font-weight: bold;
+  color:rgb(83, 92, 101);
+  font-size: 2vh;
+}
+
+#middle-section{
+  display: flex;
+  flex-direction: row;
+  gap:2vh
+}
+#header{
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left:0
+}
+#hamburger-menu{
+  position: fixed;
+  width: 5vh;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+#page{
+  margin-left: 40px;
+  margin-top: 60px;
+  
+}
